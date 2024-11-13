@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f5897484d.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+<body class="background-img-body">
+    <div class="container">
+        <header>
+            <div class="author">
+                Portfolio
+            </div>
+            <nav id="home" class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="modes">
+                <i class="fa-solid fa-moon moon"></i>
+                <i class="fa-solid fa-sun sun"></i>
+            </div>
+        </header>
+
+        <main>
+            <section class="my-info">
+                <div class="info">
+                    <h1>I'm <span>Deepak Dewasi</span></h1>
+                    <p>
+                        Front-End Web Developer / 3D Modeler
+                    </p>
+                    <button class="popup-btn">Let's Talk</button>
+                    <div class="openPopup">
+                        <button class="close-popup">X</button>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="popup-form">
+                            <input type="hidden" name="access_key" value="ea7e01f5-e9a6-48b9-9f88-4f7f0a35c0b4">
+                            <input type="text" name="Name" placeholder="Enter Your Name..." required>
+                            <input type="email" name="email" placeholder="Enter Your Email Id..." required>
+                            <textarea name="Message" placeholder="Message..." rows="7"></textarea>
+                            <button type="submit" >Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="my-img">
+                    <img src="myImage.png" alt="Author-Image" id="img">
+                </div>
+            </section>
+
+            <section class="about-me"  id="about">
+                <div class="skill">
+                    <h1>html</h1>
+                    <div class="bar"><div class="skill-bar html-bar"></div></div>
+                    <h1>css</h1>
+                    <div class="bar"><div class="skill-bar css-bar"></div></div>
+                    <h1>javascript</h1>
+                    <div class="bar"><div class="skill-bar javascript-bar"></div></div>
+                    <h1>blender</h1>
+                    <div class="bar"><div class="skill-bar blender-bar"></div></div>
+                </div>
+                <div class="abt">
+                    <div class="abt-heading">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="abt-pera">
+                        <p>Hi, I’m Deepak Dewasi. I’m a Frontend Web Developer and 3D Modeler with 2-3 years of experience. I graduated from the College of Engineering Roorkee, where I developed a strong foundation in programming skills.
+
+                            I’m passionate about creating engaging and visually appealing web experiences, as well as designing intricate 3D models. My goal is to blend creativity with technical skills to deliver innovative solutions.
+                            
+                            When I’m not coding or modeling, I enjoy photo editing,video editing,playing games,etc. Feel free to check out my portfolio and reach out if you’d like to work together!</p>
+                    </div>
+                    <div class="cv-btn">
+                        <button id="btn-cv">Download CV</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h1>Projects</h1>
+                <div class="card-box">
+                    <a id="btn-web-proj">
+                        <img src="1.png" alt="img"  class="img-box">
+                    </a>
+                    <a id="btn-blend-proj">
+                        <img src="2.png" alt="img"  class="img-box">
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact">
+           <div class="cont-info">
+                <div class="left-cont">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> dpakdewasi@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 6398131056</p>
+                </div>
+                <div class="right-cont">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="ea7e01f5-e9a6-48b9-9f88-4f7f0a35c0b4">
+                        <input type="text" name="Name" placeholder="Enter Your Name..." required>
+                        <input type="email" name="email" placeholder="Enter Your Email Id..." required>
+                        <textarea name="Message" placeholder="Message..." rows="7"></textarea>
+                        <button type="submit" >Submit</button>
+                    </form>
+                </div>
+           </div>
+        </footer>
+        <div class="copyright">
+           Copyright &copy; Deepak Dewasi All Rights Reserved
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
