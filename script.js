@@ -7,7 +7,7 @@ let btnCv = document.querySelector("#btn-cv");
 
 btnWeb.onclick = () =>
 {
-    window.open("https://drive.google.com/drive/folders/1jPHgoMPjcfV4MQzfL94TuulZROPDQS1c?usp=drive_link", "_blank")
+    window.open("https://github.com/Dpak-Dewasi/MyWeb-Projects.git", "_blank")
 }
 btnBlend.onclick = () =>
     {
